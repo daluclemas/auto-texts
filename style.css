@@ -1,0 +1,26 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+@font-face{
+    font-family:poppins;
+    src:url('poppins/Poppins-Regular.ttf');
+}
+
+body{
+    font-family:poppins;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    max-width:100%;
+    background:rebeccapurple;
+}
+
+div{
+    
+    color:white;
+    padding:1rem;
+}
